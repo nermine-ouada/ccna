@@ -68,10 +68,11 @@
   border: 1px solid rgba(102, 126, 234, 0.2);
 }
 
+.questionText,
 .question-text {
   font-size: 1.25rem;
   font-weight: 600;
-  color: #0f172a;
+  color: #000000;
   margin-bottom: 28px;
   line-height: 1.6;
   letter-spacing: -0.3px;
@@ -83,10 +84,12 @@
     margin-bottom: 10px;
   }
 
+  .questionText,
   .question-text {
     font-size: 1rem;
     margin-bottom: 15px;
     line-height: 1.4;
+    color: #000000;
   }
 }
 

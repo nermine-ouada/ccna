@@ -145,6 +145,20 @@ export default function Home() {
           </>
         )}
       </div>
+
+      <footer className={styles.footer}>
+        <p>
+          Made by{" "}
+          <a
+            href="https://github.com/nermine-ouada"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.footerLink}
+          >
+            nermine-ouada
+          </a>
+        </p>
+      </footer>
     </main>
   );
 }
